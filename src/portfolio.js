@@ -1,13 +1,14 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://fyuji.github.io/cleanfolio',
+  homepage: 'https://github.com/yujisoyama/webportfolio',
   title: 'Portfolio',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
+  img: 'https://lh3.googleusercontent.com/a-/AFdZucpkLdzx_Bv1fNn1VzB2O9FJo-a_ASWvNIIjmtvXpg=s360-p-rw-no',
   name: 'Fabio Yuji Soyama',
-  role: 'Software Developer',
+  role: 'Novice Software Developer',
   description:
     'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
   resume: 'https://example.com',
