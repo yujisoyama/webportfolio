@@ -1,4 +1,3 @@
-import uniqid from 'uniqid'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { experiences } from '../../portfolio'
 import './Experiences.css'

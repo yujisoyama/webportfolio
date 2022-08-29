@@ -1,4 +1,3 @@
-import uniqid from 'uniqid'
 import { formations } from '../../portfolio'
 import './Formations.css'
 import unesp from './img/unesplogo.png'

@@ -1,4 +1,3 @@
-import unesp from './components/Formations/img/unesplogo.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
