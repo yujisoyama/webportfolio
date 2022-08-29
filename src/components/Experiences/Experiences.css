@@ -1,7 +1,86 @@
-.projects__grid {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  grid-gap: 2em;
+.experience_current {
+  padding: 2em;
+  margin-bottom: 2em;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  display: flex;
+  background-color: #5a2c40;
+  border: 2px solid #2a2f4c;
+}
+
+.experience {
+  padding: 2em;
+  margin-bottom: 2em;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  display: flex;
+  border: 2px solid #2a2f4c;
+}
+
+.icon {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo_fenrir {
+  width: 270px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fenrir {
+  width: 300px;
+  height: 205px;
+}
+
+.logo_siemens {
+  width: 250px;
+  height: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.siemens {
+  width: 300px;
+  height: 205px;
+}
+
+.logo_alstom {
+  width: 250px;
+  height: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alstom {
+  width: 300px;
+  height: 205px;
+}
+
+.experience:hover {
+  transform: translateY(-7px);
+}
+
+.experience_current:hover {
+  transform: translateY(-7px);
+}
+
+.description {
+  width: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+  word-break: normal;
+  align-items: center;
+  vertical-align: middle;
+}
+
+p {
+  padding: 0.2em;
 }

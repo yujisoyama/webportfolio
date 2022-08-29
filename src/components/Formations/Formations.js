@@ -10,7 +10,7 @@ const Formations = () => {
   return (
     <section id='formations' className='section formations'>
       <h2 className='section__title'>Formation</h2>
-        <div className='formation_unesp'>
+        <div className='formation'>
           <div className='unesp'>
             <img className='logo_unesp' src={unesp} alt=''/>
           </div>
@@ -20,7 +20,7 @@ const Formations = () => {
             </p>
           </div>
         </div>
-        <div className='formation_hakuoh'>
+        <div className='formation'>
           <div className='hakuoh'>
             <img className='logo_hakuoh' src={hakuoh} alt=''/>
           </div>

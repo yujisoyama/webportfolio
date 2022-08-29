@@ -1,15 +1,10 @@
-.formations__line {
-  margin: 1 auto;
-  display: inline;
-  row-gap: 2em;;
-}
-
-.formation_unesp {
+.formation {
   padding: 2em;
   margin-bottom: 2em;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
   display: flex;
+  border: 2px solid #2a2f4c;
 }
 
 .logo_unesp {
@@ -25,13 +20,6 @@
   height: 90px;
 }
 
-.formation_hakuoh {
-  padding: 2em;
-  margin-bottom: 2em;
-  box-shadow: var(--shadow);
-  transition: transform 0.2s linear;
-  display: flex;
-}
 
 .logo_hakuoh {
   display: block;
@@ -45,11 +33,7 @@
   height: 150px;
 }
 
-.formation_unesp:hover {
-  transform: translateY(-7px);
-}
-
-.formation_hakuoh:hover {
+.formation:hover {
   transform: translateY(-7px);
 }
 
