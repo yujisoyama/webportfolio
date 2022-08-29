@@ -1,0 +1,22 @@
+.formation {
+  padding: 2em;
+  margin-bottom: 2em;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  display: flex;
+}
+
+.logo {
+  width: 250px;
+  height: 80px;
+}
+
+.description {
+  text-align: center;
+}
+
+
+.formation:hover {
+  transform: translateY(-7px);
+}
+

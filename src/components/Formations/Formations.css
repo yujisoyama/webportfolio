@@ -1,0 +1,66 @@
+.formations__line {
+  margin: 1 auto;
+  display: inline;
+  row-gap: 2em;;
+}
+
+.formation_unesp {
+  padding: 2em;
+  margin-bottom: 2em;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  display: flex;
+}
+
+.logo_unesp {
+  width: 250px;
+  height: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.unesp {
+  width: 300px;
+  height: 90px;
+}
+
+.formation_hakuoh {
+  padding: 2em;
+  margin-bottom: 2em;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  display: flex;
+}
+
+.logo_hakuoh {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.hakuoh {
+  width: 300px;
+  height: 150px;
+}
+
+.formation_unesp:hover {
+  transform: translateY(-7px);
+}
+
+.formation_hakuoh:hover {
+  transform: translateY(-7px);
+}
+
+.description {
+  width: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
+  word-break: normal;
+  align-items: center;
+  vertical-align: middle;
+}

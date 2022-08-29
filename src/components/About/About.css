@@ -3,6 +3,10 @@
   margin-top: 2em;
 }
 
+.border {
+  align-content: center;
+}
+
 .avatar {
   border-radius: 50%;
   width: 250px;
@@ -26,7 +30,7 @@
 
 .about__desc {
   font-size: 1rem;
-  max-width: 600px;
+  max-width: 900px;
 }
 
 .about__desc,

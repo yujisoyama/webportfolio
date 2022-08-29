@@ -1,22 +1,54 @@
+import unesp from './components/Formations/img/unesplogo.png'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://github.com/yujisoyama/webportfolio',
-  title: 'Portfolio',
+  homepage: '',
+  title: 'My Web Portfolio',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  img: 'https://lh3.googleusercontent.com/a-/AFdZucpkLdzx_Bv1fNn1VzB2O9FJo-a_ASWvNIIjmtvXpg=s360-p-rw-no',
   name: 'Fabio Yuji Soyama',
   role: 'Novice Software Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Graduated in Electrical Engineering, started my professional career as Systems Analyst, focused on SCADA (Supervisory Control and Data Acquisition) for railway systems. In the last years, I had contact with several technologies about database management and programming languages, and now I am currently looking for new opportunities to start working as a software developer.',
+  resume: 'src/doc/cv.pdf',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+
   },
 }
+
+const formations = [
+  {
+    university: 'UNESP',
+    logo: 'https://geein.fclar.unesp.br/images/unesp-logo-white.png',
+    country: 'Brazil',
+    graduate: '2021',
+    course: 'Electrical Engineering',
+    description: 'Bachelor degree in Electrical Engineering, ',
+  },
+  {
+    university: 'Hakuoh University',
+    logo: 'https://upload.wikimedia.org/wikipedia/en/e/e5/HakuohUniversityEmblem.png',
+    country: 'Japan',
+    graduate: '2019',
+    course: 'Language and Intercultural Experience',
+    description: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+  }
+]
+
+const experiences = [
+  {
+    company: 'asdasda',
+    description: 'agsdgdsag',
+    technologies: '123131',
+  },
+  {
+    company: 'asdasda',
+    description: 'agsdgdsag',
+    technologies: '123131',
+  }
+]
 
 const projects = [
   // projects can be added an removed
@@ -69,4 +101,4 @@ const contact = {
   email: 'johnsmith@mail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact, formations, experiences }
