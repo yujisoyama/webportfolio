@@ -57,8 +57,8 @@ const projects = [
     description:
       'This personal web portfolio. Developed as my first contact with React (Front-end) and Python (Back-end)',
     stack: ['React', 'HTML5', 'CSS3', 'Python'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/yujisoyama/webportfolio',
+    livePreview: 'https://webportfolio-react.web.app/',
   },
   {
     name: 'Comming soon...',

@@ -50,8 +50,7 @@ h3 {
 }
 
 .text_message {
-  margin-left: 8px;
-  margin-left: 20px;
+  padding-left: 8px;
   margin-left: auto;
   margin-right: auto;
   width: 500px;
@@ -98,4 +97,13 @@ h3 {
 
 textarea {
   resize: vertical;
+  max-height: 200px;
+  min-height: 100px;
+}
+
+.send {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8em;
 }
