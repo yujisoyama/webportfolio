@@ -19,7 +19,7 @@ const Contact = () => {
     if (name && email && message) {
       form.reset()
       e.preventDefault()
-      axios.post('http://localhost:3000/post',{
+      axios.post('https://webportfolio-nodejs.herokuapp.com/post',{
           name,
           email,
           message
