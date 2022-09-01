@@ -32,6 +32,7 @@ const Contact = () => {
       setMessage('')
       window.alert('Message sent, thank you! 😁')
     } else {
+      e.preventDefault()
       window.alert('Some fields are empty, please fill all of them to send a message 😅')
     }
   }
