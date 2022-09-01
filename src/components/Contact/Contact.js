@@ -1,4 +1,3 @@
-import { contact } from '../../portfolio'
 import './Contact.css'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
@@ -7,19 +6,33 @@ import InstagramIcon from '@material-ui/icons/Instagram'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import { useState } from 'react'
+import axios from 'axios'
 
 const Contact = () => {
-  const [name, setName] = useState()
-  const [email, setEmail] = useState()
-  const [message, setMessage] = useState()
 
-  if (!contact.email) return null
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
+  const form = document.getElementById('contact_form')
 
-  function sendMessage(e) {
-    let json = {
-      "Name": name,
-      "Email": email,
-      "Message": message
+  function handleSubmit(e) {
+    if (name && email && message) {
+      form.reset()
+      e.preventDefault()
+      axios.post('http://localhost:3000/post',{
+          name,
+          email,
+          message
+        })
+          .then(res => {
+            console.log(res.data)
+        })
+      setName('')
+      setEmail('')
+      setMessage('')
+      window.alert('Message sent, thank you! 😁')
+    } else {
+      window.alert('Some fields are empty, please fill all of them to send a message 😅')
     }
   }
 
@@ -62,7 +75,7 @@ const Contact = () => {
       </div>
       <div className='forms'>
         <h3>Send a message</h3>
-        <form>
+        <form id='contact_form' onSubmit={handleSubmit}>
             <div className='yourname'>
               <input className='text_name' type="text" placeholder='Your Name' onChange={(e) => setName(e.target.value)} />
             </div>
@@ -73,9 +86,9 @@ const Contact = () => {
               <textarea className='text_message' placeholder='Your message...' onChange={(e) => setMessage(e.target.value)}/>
             </div>
             <div className='send'>
-              <span type='submit' className='btn btn--outline' onClick={sendMessage}>
+              <button type='submit' className='btn btn--outline'>
                 Send
-              </span>
+              </button>
             </div>
         </form>
       </div>
