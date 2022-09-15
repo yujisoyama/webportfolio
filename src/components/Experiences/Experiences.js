@@ -1,13 +1,10 @@
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import { experiences } from '../../portfolio'
 import './Experiences.css'
 import fenrir from './img/fenrir.png'
 import siemens from './img/siemens.png'
 import alstom from './img/alstom.png'
 
 const Experiences = () => {
-  if (!experiences.length) return null
-
   return (
     <section id='experiences' className='section experiences'>
       <h2 className='section__title'>Experiences</h2>
@@ -15,7 +12,7 @@ const Experiences = () => {
           <div className='alstom'>
             <img className='logo_alstom' src={alstom} alt=''/>
           </div>
-          <div className='description'>
+          <div className='description_experiences'>
             <p>
               I work as an IT systems integrator and configurator, using Alstom&apos;s softwares, from its architecture to supervision and data acquisition in the metro-railway signaling sector.
             </p>
@@ -37,7 +34,7 @@ const Experiences = () => {
           <div className='siemens'>
             <img className='logo_siemens' src={siemens} alt=''/>
           </div>
-          <div className='description'>
+          <div className='description_experiences'>
             <p>
               Advised on the development of electrical panels and their auxiliaries, responsible for the automation and protection of substations.
             </p>
@@ -62,7 +59,7 @@ const Experiences = () => {
           <div className='fenrir'>
             <img className='logo_fenrir' src={fenrir} alt=''/>
           </div>
-          <div className='description'>
+          <div className='description_experiences'>
             <p>
               One of the <span style={{color: "#d44e65"}}>co-founders of the Project FENRIR</span>, as a member of Electronics and Data sub-team, I was responsible for conducting researchs and tests for solutions to electric motor drives for an automotive prototype to the Shell Eco-Marathon competition.
             </p>

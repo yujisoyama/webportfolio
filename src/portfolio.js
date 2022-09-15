@@ -5,18 +5,6 @@ const header = {
   title: 'My Web Portfolio',
 }
 
-const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'Fabio Yuji Soyama',
-  role: 'Novice Software Developer',
-  description:
-    'Graduated in Electrical Engineering, started my professional career as Systems Analyst, focused on SCADA (Supervisory Control and Data Acquisition) for railway systems. In the last years, I had contact with several technologies about database management and programming languages, and now I am currently looking for new opportunities to start working as a software developer.',
-  resume: 'src/doc/cv.pdf',
-  social: {
-
-  },
-}
-
 const formations = [
   {
     university: 'UNESP',
@@ -38,14 +26,14 @@ const formations = [
 
 const experiences = [
   {
-    company: 'asdasda',
-    description: 'agsdgdsag',
-    technologies: '123131',
+    company: '',
+    description: '',
+    technologies: '',
   },
   {
-    company: 'asdasda',
-    description: 'agsdgdsag',
-    technologies: '123131',
+    company: '',
+    description: '',
+    technologies: '',
   }
 ]
 
@@ -103,4 +91,4 @@ const contact = {
   email: 'asdasd',
 }
 
-export { header, about, projects, skills, contact, formations, experiences }
+export { header, projects, skills, contact, formations, experiences }

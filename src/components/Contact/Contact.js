@@ -67,25 +67,14 @@ const Contact = () => {
                 <TwitterIcon style={{fontSize: '55px'}}/>
             </a>
           </li>
-          <li className='icon_contact'>
-            <a href='https://webportfolio-react.web.app/' className='link link--icon'>
-                <PhoneAndroidIcon style={{fontSize: '50px'}}/>
-            </a>
-          </li>
         </ul>
       </div>
       <div className='forms'>
         <h3>Send a message</h3>
         <form id='contact_form' onSubmit={handleSubmit}>
-            <div className='yourname'>
-              <input className='text_name' type="text" placeholder='Your Name' onChange={(e) => setName(e.target.value)} />
-            </div>
-            <div className='email'>
-              <input className='text_email' type="text" placeholder='Your Email' onChange={(e) => setEmail(e.target.value)}/>
-            </div>
-            <div className='message'>
-              <textarea className='text_message' placeholder='Your message...' onChange={(e) => setMessage(e.target.value)}/>
-            </div>
+            <input className='text_name' type="text" placeholder='Your Name' onChange={(e) => setName(e.target.value)} />
+            <input className='text_email' type="text" placeholder='Your Email' onChange={(e) => setEmail(e.target.value)}/>
+            <textarea className='text_message' placeholder='Your message...' onChange={(e) => setMessage(e.target.value)}/>
             <div className='send'>
               <button type='submit' className='btn btn--outline'>
                 Send

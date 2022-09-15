@@ -1,4 +1,6 @@
 .experience_current {
+  margin-left: 1em;
+  margin-right: 1em;
   padding: 2em;
   margin-bottom: 2em;
   box-shadow: var(--shadow);
@@ -9,6 +11,8 @@
 }
 
 .experience {
+  margin-left: 1em;
+  margin-right: 1em;
   padding: 2em;
   margin-bottom: 2em;
   box-shadow: var(--shadow);
@@ -17,30 +21,23 @@
   border: 2px solid #2a2f4c;
 }
 
-.icon {
-  margin-top: auto;
-  margin-bottom: auto;
+.logo_alstom {
+  width: 250px;
+  height: 90px;
+  margin-top: 3.8em;
+  margin-left: 0.7em;
 }
 
-.logo_fenrir {
-  width: 270px;
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.fenrir {
+.alstom {
   width: 300px;
-  height: 205px;
+  height: 200px;
 }
 
 .logo_siemens {
   width: 250px;
-  height: 240px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  height: 90px;
+  margin-top: 4.6em;
+  margin-left: 0.7em;
 }
 
 .siemens {
@@ -48,17 +45,19 @@
   height: 205px;
 }
 
-.logo_alstom {
-  width: 250px;
-  height: 220px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.logo_fenrir {
+  width: 270px;
+  height: 200px;
 }
 
-.alstom {
+.fenrir {
   width: 300px;
   height: 205px;
+}
+
+.icon {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .experience:hover {
@@ -69,7 +68,7 @@
   transform: translateY(-7px);
 }
 
-.description {
+.description_experiences {
   width: 60%;
   margin-top: auto;
   margin-bottom: auto;
@@ -79,8 +78,47 @@
   word-break: normal;
   align-items: center;
   vertical-align: middle;
+  text-align: justify;
 }
 
 p {
   padding: 0.2em;
+}
+
+@media (max-width: 990px) {
+  .experience_current {
+    flex-direction: column;
+  }
+  .experience {
+    flex-direction: column;
+  }
+  .alstom {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+  }
+  .logo_alstom {
+    margin-top: 0px;
+  }
+  .siemens{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+  }
+  .logo_siemens {
+    margin-top: 0px;
+  }
+  .fenrir {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+  }
+  .icon {
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description_experiences {
+    width: 95%;
+  }
 }

@@ -37,42 +37,62 @@ h3 {
   text-align: center;
 }
 
+
 .text_name {
-  margin-left: 8px;
-  width: 484px;
+  width: 60%;
+  max-width: 500px;
+  min-width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
   outline: none;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 6px;
+  background-color: #cdcdff;
+  color: #c20020;
+  font-size: 1.2rem;
 }
 
 .text_email {
-  margin-left: 8px;
-  width: 484px;
+  width: 60%;
+  max-width: 500px;
+  min-width: 300px;
+  margin-left: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
   outline: none;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 6px;
+  background-color: #cdcdff;
+  color: #c20020;
+  font-size: 1.2rem;
 }
 
 .text_message {
-  padding-left: 8px;
+  width: 60%;
+  max-width: 500px;
+  min-width: 300px;
+  margin-left: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  margin-top: 15px;
+  margin-bottom: 2%;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  margin-top: 4%;
-  margin-bottom: 2%;
+  display: block;
   border-radius: 6px;
   background-color: #cdcdff;
   color: #c20020;
   font-size: 1.2rem;
   outline: none;
-}
-
-.yourname {
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: 30px;
-  margin-top: 4%;
-  border-radius: 6px;
-  background-color: #cdcdff;
-  color: #c20020;
-  font-size: 1.2rem;
 }
 
 .email {
@@ -87,18 +107,13 @@ h3 {
   font-size: 1.2rem;
 }
 
-.message {
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: auto;
-  margin-top: 1.5%;
-}
-
 textarea {
+  margin-left: 20%;
+  padding-left: 10px;
   resize: vertical;
-  max-height: 200px;
-  min-height: 100px;
+  height: 200px;
+  max-height: 240px;
+  min-height: 150px;
 }
 
 .send {

@@ -3,8 +3,10 @@
   margin-top: 2em;
 }
 
-.border {
-  align-content: center;
+.border{
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .avatar {
@@ -12,6 +14,8 @@
   width: 250px;
   height: 250px;
   border: 5px #d44e65 solid;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about_greetings {
@@ -25,17 +29,27 @@
 
 .about__role {
   margin-top: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
   color: rgb(212, 78, 101);
+  text-align: center;
+  width: 95%;
 }
 
 .about__desc {
+  margin-top: 2.4em;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: 1rem;
   max-width: 900px;
+  text-align: justify;
 }
 
-.about__desc,
 .about__contact {
   margin-top: 2.4em;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about .link--icon {
