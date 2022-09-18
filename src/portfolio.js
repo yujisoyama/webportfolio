@@ -73,7 +73,7 @@ const skills = [
   '.NET',
   'Flutter',
   'HTML5',
-  'CSS4',
+  'CSS3',
   'JavaScript',
   'Node.js',
   'React',
