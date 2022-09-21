@@ -43,18 +43,18 @@ const projects = [
   {
     name: 'Web Portfolio',
     description:
-      'This personal web portfolio. Developed as my first contact with React (Front-end) and Node.js (Back-end)',
+      'This personal web portfolio. Developed as my first contact with React (Front-end) and Node.js (Back-end).',
     stack: ['React', 'HTML5', 'CSS3', 'Node.js'],
     sourceCode: 'https://github.com/yujisoyama/webportfolio',
     livePreview: 'https://webportfolio-react.web.app/',
   },
   {
-    name: 'Comming soon...',
+    name: 'Ultra Tic-Tac-Toe',
     description:
-      '- - - - - - - - - - - - - - -',
-    stack: ['-', '-', '-'],
-    sourceCode: '',
-    livePreview: '',
+      'Bored of the conventional tic-tac-toe? With different rules and techniques, the Ultra Tic-Tac-Toe makes the strategies of the traditional game more interesting and thinkable.',
+    stack: ['React', 'HTML5', 'CSS3'],
+    sourceCode: 'https://github.com/yujisoyama/ultratictactoe',
+    livePreview: 'https://ultratictactoe.web.app/',
   },
   {
     name: 'Comming soon...',
