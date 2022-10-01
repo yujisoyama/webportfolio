@@ -87,6 +87,8 @@ const skills = [
   'Node.js',
   'React',
   'ReactNative',
+  'PostgreSQL',
+  'Postman',
   'Java',
   'Python',
   'DevOps',
