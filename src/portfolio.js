@@ -44,7 +44,7 @@ const projects = [
     name: 'Web Portfolio',
     description:
       'This personal web portfolio. Developed as my first contact with React (Front-end) and Node.js (Back-end).',
-    stack: ['React', 'HTML5', 'CSS3', 'Node.js'],
+    stack: ['React', 'HTML5', 'CSS3', 'Nodejs'],
     sourceCode: 'https://github.com/yujisoyama/webportfolio',
     livePreview: 'https://webportfolio-react.web.app/',
   },
@@ -55,6 +55,14 @@ const projects = [
     stack: ['React', 'HTML5', 'CSS3'],
     sourceCode: 'https://github.com/yujisoyama/ultratictactoe',
     livePreview: 'https://ultratictactoe.web.app/',
+  },
+  {
+    name: 'Find your duo',
+    description:
+      'Project developed during the NLW eSports week of Rocketseat. The application aims to connect people looking for new friends to play games together.',
+    stack: ['React', 'ReactNative', 'TypeScript', 'Nodejs' , 'Prisma', 'Expo'],
+    sourceCode: 'https://github.com/yujisoyama/findyourduo',
+    livePreview: '',
   },
   {
     name: 'Comming soon...',
@@ -75,15 +83,13 @@ const skills = [
   'HTML5',
   'CSS3',
   'JavaScript',
+  'TypeScript',
   'Node.js',
   'React',
+  'ReactNative',
   'Java',
-  'C',
-  'C++',
   'Python',
-  'Git',
   'DevOps',
-  'CI/CD',
 ]
 
 const contact = {
