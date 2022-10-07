@@ -65,6 +65,14 @@ const projects = [
     livePreview: '',
   },
   {
+    name: 'Wheather.NET',
+    description:
+      'Desktop Application developed in C# to show the weather conditions based on coordinates in your local area. It consumes a public API from OpenWheather.org',
+    stack: ['.NET', 'UWP', 'XAML'],
+    sourceCode: 'https://github.com/yujisoyama/wheatherapp-csharp',
+    livePreview: '',
+  },
+  {
     name: 'Comming soon...',
     description:
       '- - - - - - - - - - - - - - -',
@@ -88,6 +96,7 @@ const skills = [
   'React',
   'ReactNative',
   'PostgreSQL',
+  'API REST',
   'Postman',
   'Java',
   'Python',
