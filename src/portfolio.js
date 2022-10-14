@@ -59,8 +59,8 @@ const projects = [
   {
     name: 'Find your duo',
     description:
-      'Project developed during the NLW eSports week of Rocketseat. The application aims to connect people looking for new friends to play games together.',
-    stack: ['React', 'ReactNative', 'TypeScript', 'Nodejs' , 'Prisma', 'Expo'],
+      'Full Stack project developed during the NLW eSports week of Rocketseat. The application aims to connect people looking for new friends to play games together.',
+    stack: ['React', 'ReactNative', 'Vite', 'TypeScript', 'Nodejs' , 'Prisma', 'Expo'],
     sourceCode: 'https://github.com/yujisoyama/findyourduo',
     livePreview: '',
   },
@@ -70,6 +70,14 @@ const projects = [
       'Desktop Application developed in C# to show the weather conditions based on coordinates in your local area. It consumes a public API from OpenWheather.org',
     stack: ['.NET', 'UWP', 'XAML'],
     sourceCode: 'https://github.com/yujisoyama/wheatherapp-csharp',
+    livePreview: '',
+  },
+  {
+    name: 'Coworking Book',
+    description:
+      'Full Stack project to develop a platform to simplify the booking for desks and meeting rooms in coworking spaces (working in progress...)',
+    stack: ['React', 'Vite', 'TailwindCSS', 'Nodejs', 'TypeORM', 'Postgres', 'Docker', 'Typescript'],
+    sourceCode: 'https://github.com/yujisoyama/coworkingbook',
     livePreview: '',
   },
   {
