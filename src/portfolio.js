@@ -78,7 +78,7 @@ const projects = [
       'Full Stack project to develop a platform to simplify the booking for desks and meeting rooms in coworking spaces (working in progress...)',
     stack: ['React', 'Vite', 'TailwindCSS', 'Nodejs', 'TypeORM', 'Postgres', 'Docker', 'Typescript'],
     sourceCode: 'https://github.com/yujisoyama/coworkingbook',
-    livePreview: '',
+    livePreview: 'https://coworkingbookapp.web.app/',
   },
   {
     name: 'Comming soon...',
