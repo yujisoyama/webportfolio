@@ -41,14 +41,6 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Web Portfolio',
-    description:
-      'This personal web portfolio. Developed as my first contact with React (Front-end) and Node.js (Back-end).',
-    stack: ['React', 'HTML5', 'CSS3', 'Nodejs'],
-    sourceCode: 'https://github.com/yujisoyama/webportfolio',
-    livePreview: 'https://webportfolio-react.web.app/',
-  },
-  {
     name: 'Ultra Tic-Tac-Toe',
     description:
       'Bored of the conventional tic-tac-toe? With different rules and techniques, the Ultra Tic-Tac-Toe makes the strategies of the traditional game more interesting and thinkable.',
@@ -75,10 +67,34 @@ const projects = [
   {
     name: 'Coworking Book',
     description:
-      'Full Stack project to develop a platform to simplify the booking for desks and meeting rooms in coworking spaces (working in progress...)',
-    stack: ['React', 'Vite', 'TailwindCSS', 'Nodejs', 'TypeORM', 'Postgres', 'Docker', 'Typescript'],
+      'Full Stack project to develop a platform to simplify the booking for desks and meeting rooms in coworking spaces',
+    stack: ['React', 'TailwindCSS', 'Nodejs', 'TypeORM', 'Postgres', 'Docker', 'Typescript', 'AWS'],
     sourceCode: 'https://github.com/yujisoyama/coworkingbook',
-    livePreview: 'https://coworkingbookapp.web.app/',
+    livePreview: 'http://15.228.154.83:5137/',
+  },
+  {
+    name: 'World Cup Guesser',
+    description:
+      'Full stack project developed during the NLW Copa week of Rocketseat. The application aims to connect people by creating groups, join groups and make guesses about FIFA World Cup Matches.',
+    stack: ['React', 'ReactNative', 'Vite', 'TypeScript', 'Nodejs' , 'Prisma', 'Expo'],
+    sourceCode: 'https://github.com/yujisoyama/worldcup_guesser',
+    livePreview: '',
+  },
+  {
+    name: 'Movie Catalog MKS',
+    description:
+      'Backend application, dockerized, whose objective is to relate users and films through a catalog of films that is fed by the users themselves.',
+    stack: ['NestJS', 'TypeORM', 'Postgres', 'Swagger', 'Docker', 'Redis', 'TypeScript', 'AWS'],
+    sourceCode: 'https://github.com/yujisoyama/movie-catalog-MKS',
+    livePreview: 'http://15.228.154.83:3000/',
+  },
+  {
+    name: 'Easy Transactions NG',
+    description:
+      'Fullstack, dockerized web application, whose objective is to enable NG users to be able to perform internal transfers between themselves.',
+    stack: ['React', 'Node', 'TypeORM', 'Tailwind', 'Docker', 'TypeScript'],
+    sourceCode: 'https://github.com/yujisoyama/easy-transactions-NG',
+    livePreview: '',
   },
   {
     name: 'Comming soon...',
@@ -94,20 +110,21 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'SQL Server',
-  '.NET',
-  'Flutter',
+  'React',
+  'Node.js',
+  'TypeScript',
+  'PostgreSQL',
+  'ReactNative',
+  'Docker',
+  'NestJS',
+  'Swagger',
+  'Material UI',
+  'Tailwind',
+  'AWS',
   'HTML5',
   'CSS3',
   'JavaScript',
-  'TypeScript',
-  'Node.js',
-  'React',
-  'ReactNative',
-  'PostgreSQL',
   'API REST',
-  'Postman',
-  'Java',
-  'Python',
   'DevOps',
 ]
 

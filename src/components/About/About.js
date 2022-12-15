@@ -19,9 +19,8 @@ const About = () => {
         Novice Software Developer
       </h2>
       <p className='about__desc'>
-        Graduated in Electrical Engineering, started my professional career as Systems Analyst, focused on SCADA (Supervisory Control and Data Acquisition) for railway systems. In the last years, I had contact with several technologies about database management and programming languages, and now I am currently looking for new opportunities to start working as a software developer.
+        Graduated in Electrical Engineering, started my professional career as Systems Analyst, focused on SCADA (Supervisory Control and Data Acquisition) for railway systems. In the last years, I had contact with several technologies about database management and programming languages, and currently I am a Junior Full Stack Developer specialized in TypeScript  with ReactJS, NestJS and SQL Databases.
       </p>
-
       <div className='about__contact'>
         <a href={pdf} target='_blank' rel='noopener noreferrer'>
           <span type='button' className='btn btn--outline'>

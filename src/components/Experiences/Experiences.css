@@ -85,6 +85,17 @@ p {
   padding: 0.2em;
 }
 
+.molla {
+  width: 300px;
+  height: 200px;
+}
+
+.logo_molla {
+  width: 250px;
+  height: 200px;
+  margin-left: 0.7em;
+}
+
 @media (max-width: 990px) {
   .experience_current {
     flex-direction: column;
@@ -120,5 +131,13 @@ p {
   }
   .description_experiences {
     width: 95%;
+  }
+  .molla {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+  }
+  .logo_molla {
+    margin-top: 0px;
   }
 }

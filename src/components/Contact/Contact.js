@@ -10,33 +10,6 @@ import axios from 'axios'
 
 const Contact = () => {
 
-  const [name, setName] = useState("")
-  const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("")
-  const form = document.getElementById('contact_form')
-
-  function handleSubmit(e) {
-    if (name && email && message) {
-      form.reset()
-      e.preventDefault()
-      axios.post('https://webportfolio-nodejs.herokuapp.com/post',{
-          name,
-          email,
-          message
-        })
-          .then(res => {
-            console.log(res.data)
-        })
-      setName('')
-      setEmail('')
-      setMessage('')
-      window.alert('Message sent, thank you! 😁')
-    } else {
-      e.preventDefault()
-      window.alert('Some fields are empty, please fill all of them to send a message 😅')
-    }
-  }
-
   return (
     <section className='section contact center' id='contact'>
       <h2 className='section__title'>Get in Touch</h2>
@@ -68,19 +41,6 @@ const Contact = () => {
             </a>
           </li>
         </ul>
-      </div>
-      <div className='forms'>
-        <h3>Send a message</h3>
-        <form id='contact_form' onSubmit={handleSubmit}>
-            <input className='text_name' type="text" placeholder='Your Name' onChange={(e) => setName(e.target.value)} />
-            <input className='text_email' type="text" placeholder='Your Email' onChange={(e) => setEmail(e.target.value)}/>
-            <textarea className='text_message' placeholder='Your message...' onChange={(e) => setMessage(e.target.value)}/>
-            <div className='send'>
-              <button type='submit' className='btn btn--outline'>
-                Send
-              </button>
-            </div>
-        </form>
       </div>
     </section>
   )
