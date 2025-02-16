@@ -1,22 +1,50 @@
-Clean and simple web portfolio using React and hosted in Firebase. The Contact section consumes a POST API developed with Node.js (See the repository [here](https://github.com/yujisoyama/webportfolio-nodejs)) to store the data inserted in a PostgreSQL, both deployed in Heroku.
+# React + TypeScript + Vite
 
-<img src="https://user-images.githubusercontent.com/64661100/189785116-79fc60fb-8a8c-4e70-a08d-6e0616f185eb.png" width="600" />
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Live: [WebPortfolio](https://webportfolio-react.web.app/).
+Currently, two official plugins are available:
 
-## Instructions
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### Setup
+## Expanding the ESLint configuration
 
-```shell
-git clone https://github.com/yujisoyama/webportfolio.git
-cd cleanfolio
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+
+- Configure the top-level `parserOptions` property like this:
+
+```js
+export default tseslint.config({
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
 ```
 
-Install and run -
+- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+- Optionally add `...tseslint.configs.stylisticTypeChecked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```shell
-yarn
-yarn add @material-ui/core@next
-yarn start
+```js
+// eslint.config.js
+import react from 'eslint-plugin-react'
+
+export default tseslint.config({
+  // Set the react version
+  settings: { react: { version: '18.3' } },
+  plugins: {
+    // Add the react plugin
+    react,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended rules
+    ...react.configs.recommended.rules,
+    ...react.configs['jsx-runtime'].rules,
+  },
+})
 ```
