@@ -1,4 +1,5 @@
 import { FORMATIONS } from '@/utils/constants';
+import { highlightWords } from '@/utils/highlightWords';
 
 export function Formations() {
   return (
@@ -12,9 +13,9 @@ export function Formations() {
           <img
             src={f.img}
             alt={f.title}
-            className={`${f.title === 'UNESP' ? 'w-50 h-20' : 'w-30 h-40'}`}
+            className={f.imgStyle}
           />
-          <p className="text-primary text-justify">{f.description}</p>
+          <p className="text-primary text-justify">{highlightWords(f.description)}</p>
         </div>
       ))}
     </div>
