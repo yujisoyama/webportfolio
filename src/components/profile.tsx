@@ -4,7 +4,7 @@ import cv from '../assets/cv.pdf';
 
 export function Profile() {
   return (
-    <div className="flex flex-col items-center justify-center gap-6 p-8">
+    <div className="flex flex-col items-center justify-center gap-8 p-8">
       <img
         src={profilePhoto}
         alt="profile"
@@ -25,7 +25,7 @@ export function Profile() {
         specialized in Nest, React, Golang and AWS.
       </p>
       <Button
-        className="bg-background border-4 border-secondary text-secondary transition hover:bg-secondary hover:text-background hover:cursor-pointer"
+        className="bg-background border-2 border-secondary text-secondary font-bold transition hover:bg-secondary hover:text-background hover:cursor-pointer"
         onClick={() => window.open(cv, '_blank')}
       >
         resume
