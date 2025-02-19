@@ -118,7 +118,7 @@ export const PROJECTS = [
   {
     title: 'Wheather.NET',
     description:
-      'Desktop Application developed in C# to show the weather conditions based on coordinates in your local area. It consumes a public API from OpenWheather.org.',
+      'Desktop app developed in C# to show the weather conditions based on coordinates in your local area. It consumes a public API from OpenWheather.org.',
     technologies: ['.NET', 'UWP', 'XAML'],
     repositoryLink: 'https://github.com/yujisoyama/wheatherapp-csharp',
   },
@@ -165,7 +165,7 @@ export const PROJECTS = [
       'Docker',
       'Redis',
       'Typescript',
-      'AWS'
+      'AWS',
     ],
     repositoryLink: 'https://github.com/yujisoyama/movie-catalog-MKS',
   },
@@ -183,4 +183,22 @@ export const PROJECTS = [
     ],
     repositoryLink: 'https://github.com/yujisoyama/easy-transactions-NG',
   },
+];
+
+export const SKILLS = [
+  'React',
+  'ReactNative',
+  'Nodejs',
+  'Nest',
+  'Golang',
+  'Typescript',
+  'Tailwind',
+  'gRPC',
+  'API REST',
+  'AWS',
+  'Docker',
+  'Vite',
+  'SQL',
+  'VBA',
+  'C',
 ];

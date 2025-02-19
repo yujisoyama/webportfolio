@@ -3,6 +3,7 @@ import { Formations } from "./components/formations";
 import Navbar from "./components/header";
 import { Profile } from "./components/profile";
 import { Projects } from "./components/projects";
+import { Skills } from "./components/skills";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Formations />
       <Experiences />
       <Projects />
+      <Skills />
     </>
   );
 }
