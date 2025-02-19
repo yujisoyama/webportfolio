@@ -16,7 +16,7 @@ export function Profile() {
       <h2 className="text-2xl text-secondary font-bold text-center sm:text-3xl">
         Full Stack Sofware Developer
       </h2>
-      <p className="text-primary text-justify text-base/loose">
+      <p className="text-primary text-justify text-base/ sm:max-w-200">
         Graduated in Electrical Engineering, started my professional career as
         Systems Analyst, focused on SCADA (Supervisory Control and Data
         Acquisition) for railway systems. By my passion for programming that I

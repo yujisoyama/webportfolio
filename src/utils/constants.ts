@@ -5,6 +5,9 @@ import molla from '../assets/molla.png';
 import alstom from '../assets/alstomlogo.png';
 import siemens from '../assets/siemens.png';
 import fenrir from '../assets/fenrir.png';
+import { GithubIcon } from '@/assets/icons/Github';
+import { LinkedInIcon } from '@/assets/icons/LinkedIn';
+import { InstagramIcon } from '@/assets/icons/Instagram';
 
 export const NAV_SECTIONS = [
   'formations',
@@ -183,6 +186,13 @@ export const PROJECTS = [
     ],
     repositoryLink: 'https://github.com/yujisoyama/easy-transactions-NG',
   },
+  {
+    title: 'Coming soon...',
+    description:
+      '...',
+    technologies: [],
+    repositoryLink: '',
+  },
 ];
 
 export const SKILLS = [
@@ -201,4 +211,22 @@ export const SKILLS = [
   'SQL',
   'VBA',
   'C',
+];
+
+export const CONTACT = [
+  {
+    title: 'Github',
+    icon:  GithubIcon,
+    link: 'https://github.com/yujisoyama',
+  },
+  {
+    title: 'Linkedin',
+    icon: LinkedInIcon,
+    link: 'https://www.linkedin.com/in/fabioyujisoyama/',
+  },
+  {
+    title: 'Instagram',
+    icon: InstagramIcon,
+    link: 'https://www.instagram.com/yujinass/',
+  },
 ];

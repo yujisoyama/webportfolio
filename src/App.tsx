@@ -1,4 +1,6 @@
+import { Contact } from "./components/contact";
 import { Experiences } from "./components/experiences";
+import { Footer } from "./components/footer";
 import { Formations } from "./components/formations";
 import Navbar from "./components/header";
 import { Profile } from "./components/profile";
@@ -15,6 +17,8 @@ function App() {
       <Experiences />
       <Projects />
       <Skills />
+      <Contact />
+      <Footer />
     </>
   );
 }

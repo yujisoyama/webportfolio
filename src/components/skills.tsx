@@ -2,11 +2,11 @@ import { SKILLS } from '@/utils/constants';
 
 export function Skills() {
   return (
-    <div>
+    <div id='skills'>
       <h1 className="text-primary text-center text-3xl font-bold mt-12">
         SKILLS
       </h1>
-      <div className="flex flex-wrap justify-center gap-10 mt-5 p-4">
+      <div className="flex flex-wrap justify-center gap-5 mt-5 p-4 mx-auto sm:max-w-150">
         {SKILLS.map((skill) => (
           <p
             key={skill}
