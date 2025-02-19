@@ -41,6 +41,7 @@ export const EXPERIENCES = [
       'Main clients I have interacted with: major spanish football clubs, including *Atlético *de *Madrid and *Espanyol *de *Barcelona.',
       'I work on developing new features and maintaining the digital product. Constantly handle *integrations with external services and *payment *gateways, as well as contribute to building the entire *architecture.',
     ],
+    link: 'https://www.linkedin.com/company/4all-tecnologia/',
   },
   {
     title: 'Agência Molla',
@@ -51,6 +52,7 @@ export const EXPERIENCES = [
       `Development in *React, Hooks, Context API and *Tailwind CSS for Front-End and Axios for consume API's`,
       'Development in *NestJS for server-side for API RESTful applications in JSON, using *TypeORM for Postgres database integration.',
     ],
+    link: 'https://www.linkedin.com/company/agenciamolla/',
   },
   {
     title: 'ALSTOM',
@@ -62,6 +64,7 @@ export const EXPERIENCES = [
       'Extensive use of *SQL, *C#, *Batch *Script, and *VB for database manipulation and configuration in *SQL *Server, as well as process automation.',
       'Familiar with *DevOps culture.',
     ],
+    link: 'https://www.linkedin.com/company/alstom/',
   },
   {
     title: 'SIEMENS',
@@ -74,6 +77,7 @@ export const EXPERIENCES = [
       'Prepared and reviewed projects and documentation using AutoCAD.',
       'Developed a *VBA-based tool to create an interface between *Excel and *AutoCAD, optimizing and automating internal processes',
     ],
+    link: 'https://www.linkedin.com/company/siemens/',
   },
   {
     title: 'FENRIR',
@@ -83,5 +87,6 @@ export const EXPERIENCES = [
       'As one of the co-founders of the project and a member of the *Electronics and *Data subteam, I was responsible for researching and testing solutions for electric motor drives in an automotive prototype for the Shell Eco-Marathon competition.',
       'Worked as a *Full *Stack *Developer, using React and Node.js to build an application for speed monitoring and time control of the automotive prototype.',
     ],
+    link: 'linkedin.com/company/fenrir-feg/',
   },
 ];

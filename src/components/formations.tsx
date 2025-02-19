@@ -15,7 +15,7 @@ export function Formations() {
             alt={f.title}
             className={f.imgStyle}
           />
-          <p className="text-primary text-justify">{highlightWords(f.description)}</p>
+          <p className="text-primary text-justify text-base/loose">{highlightWords(f.description)}</p>
         </div>
       ))}
     </div>
