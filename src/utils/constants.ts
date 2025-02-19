@@ -90,3 +90,97 @@ export const EXPERIENCES = [
     link: 'linkedin.com/company/fenrir-feg/',
   },
 ];
+
+export const PROJECTS = [
+  {
+    title: 'Ultra Tic-Tac-Toe',
+    description:
+      'Bored of the conventional tic-tac-toe? With different rules and techniques, the Ultra Tic-Tac-Toe makes the strategies of the traditional game more interesting and thinkable.',
+    technologies: ['React', 'HTML', 'CSS3'],
+    repositoryLink: 'https://github.com/yujisoyama/ultratictactoe',
+    projectLink: 'https://ultratictactoe.web.app/',
+  },
+  {
+    title: 'Find your duo',
+    description:
+      'Full Stack project developed during the NLW eSports week of Rocketseat. The application aims to connect people looking for new friends to play games together.',
+    technologies: [
+      'React',
+      'ReactNative',
+      'Vite',
+      'Typescript',
+      'Nodejs',
+      'Prisma',
+      'Expo',
+    ],
+    repositoryLink: 'https://github.com/yujisoyama/findyourduo',
+  },
+  {
+    title: 'Wheather.NET',
+    description:
+      'Desktop Application developed in C# to show the weather conditions based on coordinates in your local area. It consumes a public API from OpenWheather.org.',
+    technologies: ['.NET', 'UWP', 'XAML'],
+    repositoryLink: 'https://github.com/yujisoyama/wheatherapp-csharp',
+  },
+  {
+    title: 'Coworking Book',
+    description:
+      'Full Stack project to develop a platform to simplify the booking for desks and meeting rooms in coworking spaces.',
+    technologies: [
+      'React',
+      'TailwindCSS',
+      'Nodejs',
+      'TypeORM',
+      'Postgres',
+      'Docker',
+      'Typescript',
+      'AWS',
+    ],
+    repositoryLink: 'https://github.com/yujisoyama/coworkingbooking',
+  },
+  {
+    title: 'World Cup Guesser',
+    description:
+      'Full stack project developed during the NLW Copa week of Rocketseat. The application aims to connect people by creating groups, join groups and make guesses about FIFA World Cup Matches.',
+    technologies: [
+      'React',
+      'ReactNative',
+      'Vite',
+      'Typescript',
+      'Nodejs',
+      'Prisma',
+      'Expo',
+    ],
+    repositoryLink: 'https://github.com/yujisoyama/worldcup_guesser',
+  },
+  {
+    title: 'Movie Catalog MKS',
+    description:
+      'Backend and dockerized application, whose objective is to relate users and films through a catalog of films that is fed by the users themselves.',
+    technologies: [
+      'NestJS',
+      'TypeORM',
+      'Postgres',
+      'Swagger',
+      'Docker',
+      'Redis',
+      'Typescript',
+      'AWS'
+    ],
+    repositoryLink: 'https://github.com/yujisoyama/movie-catalog-MKS',
+  },
+  {
+    title: 'Easy Transactions NG',
+    description:
+      'Fullstack, dockerized web application, whose objective is to enable NG users to be able to perform internal transfers between themselves.',
+    technologies: [
+      'React',
+      'Nodejs',
+      'TypeORM',
+      'Tailwind',
+      'Docker',
+      'Typescript',
+    ],
+    repositoryLink: 'https://github.com/yujisoyama/easy-transactions-NG',
+  },
+];

@@ -4,7 +4,7 @@ import { highlightWords } from '@/utils/highlightWords';
 
 export function Experiences() {
   return (
-    <div className="flex flex-col items-center justify-center gap-8 p-8">
+    <div className="flex flex-col items-center justify-center gap-14 p-8 mt-8">
       <h1 className="text-primary text-center text-3xl font-bold">
         EXPERIENCES
       </h1>

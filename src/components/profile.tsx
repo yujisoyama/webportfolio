@@ -25,10 +25,10 @@ export function Profile() {
         specialized in Nest, React, Golang and AWS.
       </p>
       <Button
-        className="bg-background border-2 border-secondary text-secondary font-bold transition hover:bg-secondary hover:text-background hover:cursor-pointer"
+        className="bg-background w-30 h-12 border-2 border-secondary text-secondary font-bold transition hover:bg-secondary hover:text-background hover:cursor-pointer"
         onClick={() => window.open(cv, '_blank')}
       >
-        resume
+        RESUME
       </Button>
     </div>
   );
