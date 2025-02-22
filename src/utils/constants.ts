@@ -202,6 +202,8 @@ export const SKILLS = [
   'Nodejs',
   'Nest',
   'Golang',
+  'Microservices',
+  'RabbitMQ',
   'Typescript',
   'Tailwind',
   'gRPC',
