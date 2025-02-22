@@ -41,8 +41,10 @@ export const EXPERIENCES = [
     imgStyle: 'w-40 h-40 rounded-full mb-5',
     paragraphs: [
       `Performance as a *Mid-Level *Full *Stack *Developer, working as part of an agile development team focused on enhancing the user's online shopping experience (food, tickets, e-shop, etc.) through a digital marketplace.`,
+      'Work on developing new features, write tests, debugging and maintaining the digital product through *dockerized *microservices in *Golang, Backend-for-Frontend in *NestJS and Vite (*React).',
+      'Use *AWS resources to deploy the infrastructure, watch logs and monitor performance metrics to ensure stability and scalability of the system.',
+      'Constantly handle integrations with external services, partners and payment gateways, as well as contribute to building the entire architecture for new solutions.',
       'Main clients I have interacted with: major spanish football clubs, including *Atlético *de *Madrid and *Espanyol *de *Barcelona.',
-      'I work on developing new features and maintaining the digital product. Constantly handle *integrations with external services and *payment *gateways, as well as contribute to building the entire *architecture.',
     ],
     link: 'https://www.linkedin.com/company/4all-tecnologia/',
   },
@@ -188,8 +190,7 @@ export const PROJECTS = [
   },
   {
     title: 'Coming soon...',
-    description:
-      '...',
+    description: '...',
     technologies: [],
     repositoryLink: '',
   },
@@ -216,7 +217,7 @@ export const SKILLS = [
 export const CONTACT = [
   {
     title: 'Github',
-    icon:  GithubIcon,
+    icon: GithubIcon,
     link: 'https://github.com/yujisoyama',
   },
   {
